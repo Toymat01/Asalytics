@@ -1,12 +1,10 @@
-// import CodingTest from "./components/CodingTest";
-import HomePage from "./components/HomePage";
+import CodingTest from "./components/CodingTest";
 
 
 function App() {
   return (
     <div className="App">
-     {/* <CodingTest /> */}
-     <HomePage/>
+     <CodingTest />
     </div>
   );
 }

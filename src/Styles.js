@@ -37,23 +37,29 @@ const useStyles = makeStyles((theme) =>{
             textAlign:'center'
         },
         success:{
-            background:'#a2fa1d',
+            background:'#6FD791',
             color:'white',           
-            border: '#a2fa1d solid 1px',
+            border: '#6FD791  solid 1px',
             borderRadius:'10px',
             width:'50%',
             position:'relative',
             left:60
         },
         error:{
-            background:'red',
+            background:'#BC3131',
             color:'white',           
-            border: 'red solid 1px',
+            border: '#BC3131 solid 1px',
             borderRadius:'10px',
             width:'50%',
             position:'relative',
             left:60
         },
+        loading:{
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'center',
+            height:'50vh'
+        }
 
 
     }
