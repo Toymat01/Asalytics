@@ -1,10 +1,10 @@
-import CodingTest from "./components/CodingTest";
+import Home from "./components/Home";
 
 
 function App() {
   return (
     <div className="App">
-     <CodingTest />
+     <Home />
     </div>
   );
 }
